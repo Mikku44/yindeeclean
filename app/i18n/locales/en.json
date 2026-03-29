@@ -1,0 +1,471 @@
+{
+  "common": {
+    "title": "Yindee Clean",
+   
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "requestQuote": "Request a Quote",
+    "menu": {
+      "service": "Service",
+      "homeCleaning": "Home Cleaning",
+      "bigCleaning": "Big Cleaning",
+      "disinfection": "Disinfection Cleaning",
+      "upholstery": "Upholstery Cleaning",
+      "standard": "Yindee Clean Standard",
+      "article": "Article",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "exploreService": "Explore Services"
+  },
+  "home": {
+    "heroAlt": "hero image",
+     "welcome" : "Daily Cleaning Service",
+     "subtitle": "Yindee Clean",
+    "welcome_line_1": "Condo & Home",
+    "welcome_line_2": "Cleaning",
+    "description": "cleaning solutions tailored for your lifestyle—offering hourly,daily, or monthly maintenance with trusted professionals.",
+    "cta": "Book Now",
+    "cta2": "View Services"
+  },
+  "services": {
+    "title": "Our Professional Cleaning Services",
+    "description": "We offer a comprehensive range of cleaning solutions to meet your needs, from daily home cleaning to specialized disinfection and upholstery care."
+  },
+  
+  "whyYindee": {
+    "badge": "Why Yindee Clean?",
+    "headline": "Commitment to Quality, Driven by Satisfaction.",
+    "subHeadline": "Every member of our team is professionally trained to deliver excellence. We combine modern tools with a rigorous quality control system to ensure premium results.",
+    "features": {
+      "clean": { "title": "Pure Cleanliness", "desc": "Comprehensive cleaning using advanced equipment and eco-friendly chemicals." },
+      "expert": { "title": "Unmatched Expertise", "desc": "Years of experience in interior and exterior maintenance with a focus on detail." },
+      "efficient": { "title": "Proven Efficiency", "desc": "Trusted by government and private sectors for our rapid and reliable scaling." },
+      "service": { "title": "Full-Service Staffing", "desc": "From office maids to high-rise window cleaners and professional gardening." }
+    }
+  },
+  "properties": {
+    "badge": "What we do",
+    "headline": "Properties We Clean",
+    "subHeadline": "Specializing in top-notch cleaning services for diverse spaces. We deliver a meticulous touch that transforms your environment.",
+    "items": {
+      "apartments": {
+        "title": "Apartment Buildings",
+        "description": "Learn more about our cleaning services for Common Areas.",
+        "link": "Learn more"
+      },
+      "offices": {
+        "title": "Office Buildings",
+        "description": "Professional maintenance tailored for corporate environments.",
+        "link": "Learn more"
+      },
+      "retail": {
+        "title": "Retail Locations",
+        "description": "High-standard cleaning for multi-unit retail and storefronts.",
+        "link": "Learn more"
+      },
+      "condo": {
+        "title": "Condo Communities",
+        "description": "Complete care for residential complexes and private units.",
+        "link": "Learn more"
+      }
+    }
+  },
+ "process": {
+    "protocol_label": "The Yindee Clean Way",
+    "title_line_1": "We handle every corner",
+    "title_line_2": "So you can actually relax",
+    "step1_label": "Let's Talk",
+    "step1_title": "Tell us what you need",
+    "step1_desc": "Share your specific requirements with our team so we can tailor a plan that works for you.",
+    "step2_label": "Check-up",
+    "step2_title": "Understanding your space",
+    "step2_desc": "We take a closer look at the area to make sure we bring the right tools and the right team.",
+    "step3_label": "Pricing",
+    "step3_title": "Clear plans and pricing",
+    "step3_desc": "You’ll get a straightforward service outline and quote. No hidden fees, just honesty.",
+    "step4_label": "Booking",
+    "step4_title": "Save your date",
+    "step4_desc": "Pick a time that fits your schedule, and we’ll get our professionals ready for you.",
+    "step5_label": "Service",
+    "step5_title": "Care in every detail",
+    "step5_desc": "Our team steps in to refresh your space, leaving it exactly how a home should feel."
+},
+ "service": {
+    "title": "Our Services",
+    "description": "Thoughtful cleaning for every part of your home. Explore our range of professional care options.",
+    "categories": {
+      "Home cleaning": "Regular Cleaning",
+      "Big cleaning": "Deep Cleaning",
+      "Disinfection cleaning": "Disinfection Service",
+      "Upholstery cleaning" : "Upholstery & Fabric Care"
+    },
+    "details": {
+      "Home cleaning": "Flexible help for busy days. We focus on your specific priorities to keep your living space refreshed.",
+      "Big cleaning": "A thorough, top-to-bottom reset. Perfect for move-ins, post-renovations, or a seasonal home refresh.",
+      "Disinfection cleaning": "Professional sanitization using safe, hospital-grade solutions to keep your environment healthy and protected.",
+      "Upholstery cleaning": "Specialized care for sofas, mattresses, and carpets to remove deep-seated dust and restore fabric texture."
+    }
+},
+ "contact": {
+    "hero_title": "Let's Get in Touch",
+    "hero_subtitle": "We're here to help you refresh your space.",
+    "form_title": "Send us a message",
+    "form_subtitle": "Leave a few details below, and we’ll get back to you shortly to discuss how we can help.",
+    "placeholder_name": "Your name",
+    "placeholder_phone": "Your phone number",
+    "placeholder_message": "Any specific details or requests?",
+    "select_service": "Which service are you interested in?",
+    "consent_text": "I agree to the collection and use of my personal data for follow-up and service offers as per the Privacy Policy.",
+    "send_button": "Send Message"
+  },
+  "blog": {
+  "title": "Insights & Care",
+  "subtitle": "Journal",
+  "description": "Tips from our experts on maintaining a healthy, serene home environment.",
+  "read_more": "Read Story",
+  "posts": {
+    "post1_title": "The Psychology of a Clean Space",
+    "post1_date": "March 24, 2026",
+    "post2_title": "Eco-friendly Living: Small Steps, Big Impact",
+    "post2_date": "March 18, 2026",
+    "post3_title": "The Ultimate Seasonal Deep Clean Guide",
+    "post3_date": "March 10, 2026",
+    "post4_title": "Understanding Fabric Care for Luxury Linens",
+    "post4_date": "March 02, 2026"
+  }
+},
+"why_us": {
+  "subtitle": "Why Choose Us",
+  "title_line_2": "Standard",
+  "title_line_1": "Yindee Clean",
+  "description": "We believe a clean home is the foundation of happiness. At Yindee Clean, we provide more than just cleaning—we deliver professional care with transparency and heart.",
+  "points": {
+    "point1_title": "Expert Team",
+    "point1_desc": "Every member of our staff is rigorously trained to ensure high-quality service and professional conduct.",
+    "point2_title": "Premium Equipment",
+    "point2_desc": "We use eco-friendly products and modern tools designed to protect your home's delicate surfaces.",
+    "point3_title": "Structured Workflow",
+    "point3_desc": "Our systematic approach includes planning and quality checks to ensure consistent excellence.",
+    "point4_title": "Customer Centric",
+    "point4_desc": "Your satisfaction is our priority. We tailor our services to meet your specific needs and expectations."
+  }
+},
+"upholstery": {
+    "subtitle": "Upholstery Cleaning",
+    "title_line_1": "Deep Cleaning",
+    "title_line_2": "For Every Fabric Surface",
+    "description": "Restore freshness to your sofa, mattress, and fabric surfaces with our professional deep-cleaning process. We effectively remove stains, odors, and embedded dust for a cleaner, healthier home.",
+    "cta_primary": "Book Cleaning Service",
+    "cta_secondary": "View All Services",
+    "tags": ["Sofa", "Mattress", "Carpet"],
+    "trust": "Safe for all fabric types · No harsh chemicals",
+
+    "hero_subtitle": "Bring your furniture back to life",
+    "hero_line_1": "Upholstery",
+    "hero_line_2": "Care",
+    "description_long": "We help restore freshness to your favorite sofa and mattress. Say goodbye to deep stains and hidden dust, and enjoy a cleaner, more comfortable home that’s safe for everyone in your family.",
+
+    "process": {
+      "label": "What You Get",
+      "title": "Deeper Than Surface Clean",
+      "desc": "We go beyond surface cleaning by extracting dirt, dust mites, and allergens hidden deep inside. This ensures your mattress and sofa are truly clean, not just on the outside. Plus, our process dries quickly so you can get back to comfort without long waiting times."
+    },
+
+    "features": {
+      "sofa": "Sofa & Lounge Cleaning",
+      "sofa_desc": "Restore the look and comfort of your favorite sofa. Sit back and relax without worrying about stains or odors.",
+      "mattress": "Mattress & Bedding Care",
+      "mattress_desc": "Eliminate dust mites and allergens for a healthier sleep. Wake up feeling refreshed every day.",
+      "car": "Car Seat Cleaning",
+      "car_desc": "Remove dirt and stains from your car interior, making every ride cleaner and more enjoyable.",
+      "stain": "Targeted Stain Removal",
+      "stain_desc": "Coffee spills, wine stains, or pet marks — we help lift and reduce tough stains effectively."
+    },
+
+    "cta": "Schedule a Cleaning Appointment",
+
+    "features_title": "What We Do",
+    "features_subtitle": "Our Services",
+    "features_main_desc": "We take care of your essential furniture with attention to every detail, delivering deep cleanliness and long-lasting freshness."
+  },
+  "home_clean": {
+    "subtitle": "Home Cleaning",
+    "title_line_1": "A Cleaner",
+    "title_line_2": "Healthier Home",
+    "description": "Enjoy a spotless home without the stress. Our professional cleaning service ensures every corner is fresh, hygienic, and comfortable.",
+    "tags": ["Living Room", "Kitchen", "Bathroom"],
+    "cta_primary": "Book Cleaning",
+    "cta_secondary": "View Services",
+    "trust": "Trusted professionals · Safe products",
+
+    "features_title": "What We Clean",
+    "features_subtitle": "Our Services",
+    "features_main_desc": "We handle every part of your home with care and attention to detail.",
+
+    "features": {
+      "general": "General Cleaning",
+      "general_desc": "Keep your home fresh and tidy with routine cleaning.",
+      "deep": "Deep Cleaning",
+      "deep_desc": "Thorough cleaning for hidden dirt and buildup.",
+      "kitchen": "Kitchen Cleaning",
+      "kitchen_desc": "Degrease and sanitize your cooking space.",
+      "bathroom": "Bathroom Cleaning",
+      "bathroom_desc": "Disinfect and refresh every surface."
+    },
+
+    "process": {
+      "label": "Our Process",
+      "title": "Clean You Can Feel",
+      "desc": "We follow a structured cleaning process to ensure consistency and high-quality results every time."
+    },
+
+    "cta": "Schedule Your Cleaning",
+    "final_cta_title": "Book Your Cleaning Now",
+"final_cta_desc": "Choose your preferred date and time. Our team is ready to take care of your home.",
+"benefits_label": "Benefits",
+"benefits_title": "Why Hire Professional Cleaning",
+
+"benefits": {
+  "safe": {
+    "title": "Safer for Your Home",
+    "desc": "No need for live-in staff, reducing risks to your property and personal space."
+  },
+  "pro": {
+    "title": "Professional Team",
+    "desc": "Trained cleaners with proper skills, etiquette, and reliability for consistent results."
+  },
+  "save_cost": {
+    "title": "Save Long-Term Costs",
+    "desc": "Proper care helps extend the life of furniture and surfaces, reducing replacement costs."
+  },
+  "save_time": {
+    "title": "Save Your Time",
+    "desc": "Free up your time for work, family, or relaxation while we handle the cleaning."
+  },
+  "flexible": {
+    "title": "Flexible Scheduling",
+    "desc": "Choose the date, time, and frequency that fits your lifestyle."
+  },
+  "custom": {
+    "title": "Focus on What Matters",
+    "desc": "Request special attention for specific areas to match your exact needs."
+  }
+},
+"gallery_label": "Gallery",
+"gallery_title": "Our Recent Work"
+  },
+  
+  "upholstery_faq": {
+    "subtitle": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How long does the cleaning process take?",
+        "a": "Most upholstery cleaning sessions take around 1–2 hours depending on size and condition."
+      },
+      {
+        "q": "How long until it dries?",
+        "a": "Typically 3–6 hours. Our fast-drying process ensures minimal downtime."
+      },
+      {
+        "q": "Is it safe for pets and children?",
+        "a": "Yes, we use eco-friendly and non-toxic solutions that are safe for your family."
+      },
+      {
+        "q": "Can you remove all stains?",
+        "a": "We significantly reduce most stains, though some deep or old stains may not be completely removable."
+      }
+    ]
+  },
+  "home_faq": {
+    "subtitle": "FAQ",
+    "title": "Common Questions About Home Cleaning",
+    "items": [
+      {
+        "q": "How long does a home cleaning session take?",
+        "a": "It typically takes 2–4 hours depending on the size of your home and the level of cleaning required."
+      },
+      {
+        "q": "Do I need to prepare anything before cleaning?",
+        "a": "We recommend putting away personal items and valuables, but our team will handle the rest for you."
+      },
+      {
+        "q": "What cleaning products do you use?",
+        "a": "We use high-quality, eco-friendly products that are safe for children, pets, and all surfaces."
+      },
+      {
+        "q": "Can I book regular cleaning services?",
+        "a": "Yes, you can schedule weekly, bi-weekly, or monthly cleaning based on your needs."
+      },
+      {
+        "q": "Do you bring your own equipment?",
+        "a": "Yes, our team comes fully equipped with all necessary tools and cleaning supplies."
+      }
+    ]
+  },
+  "disinfection": {
+  "subtitle": "Disinfection Cleaning",
+  "title": "Deep Clean. Disinfect. Protect.",
+  "description": "Eliminate germs and bacteria with professional disinfection for a safer, healthier space.",
+  "cta": "Book Disinfection",
+
+  "areas_title": "What We Disinfect",
+  "areas": {
+    "touchpoints": {
+      "title": "High-Touch Areas",
+      "desc": "Door handles, switches, and frequently used surfaces."
+    },
+    "bathroom": {
+      "title": "Bathrooms",
+      "desc": "Deep sanitation for hygiene-critical areas."
+    },
+    "kitchen": {
+      "title": "Kitchen",
+      "desc": "Food-safe cleaning and surface disinfection."
+    },
+    "surfaces": {
+      "title": "All Surfaces",
+      "desc": "Tables, furniture, and shared spaces."
+    }
+  },
+
+  "process_title": "Professional Disinfection Process",
+  "process_desc": "We follow a structured process using safe, effective disinfectants to ensure complete coverage.",
+
+  "benefits_title": "Why Disinfection Matters",
+  "benefits": {
+    "germs": {
+      "title": "Eliminate Germs",
+      "desc": "Reduce bacteria and viruses effectively."
+    },
+    "safe": {
+      "title": "Safe Products",
+      "desc": "Non-toxic and safe for people and pets."
+    },
+    "confidence": {
+      "title": "Peace of Mind",
+      "desc": "Feel confident in a cleaner environment."
+    }
+  },
+
+  "final_cta_title": "Ready to Disinfect Your Space?",
+  "final_cta_desc": "Book now and keep your home safe and hygienic."
+},
+"disinfection_faq": {
+    "subtitle": "FAQ",
+    "title": "Disinfection Service Questions",
+    "items": [
+      {
+        "q": "What is included in the disinfection service?",
+        "a": "We disinfect high-touch areas, bathrooms, kitchens, and all commonly used surfaces using professional-grade products."
+      },
+      {
+        "q": "Are the disinfectants safe?",
+        "a": "Yes, we use safe and approved products that are non-toxic and suitable for homes with children and pets."
+      },
+      {
+        "q": "How long does the service take?",
+        "a": "Typically 1–3 hours depending on the size of the area and level of treatment required."
+      },
+      {
+        "q": "Do I need to leave the house during disinfection?",
+        "a": "In most cases, you can stay. However, we may recommend short ventilation time after the service."
+      },
+      {
+        "q": "How often should I book disinfection?",
+        "a": "It depends on your lifestyle, but many customers choose monthly or after special situations like illness or moving in."
+      }
+    ]
+  },
+  "big_clean": {
+  "subtitle": "Big Cleaning",
+  "title": "Deep Cleaning for Every Corner",
+  "description": "A complete deep clean to remove hidden dirt, stains, and buildup — perfect for move-in, move-out, or a full reset.",
+  "cta": "Book Big Cleaning",
+
+  "areas_title": "What We Cover",
+  "areas": {
+    "entire": {
+      "title": "Entire Home",
+      "desc": "Full cleaning across all rooms and living spaces."
+    },
+    "hidden": {
+      "title": "Hidden Areas",
+      "desc": "Behind furniture, corners, and hard-to-reach spots."
+    },
+    "kitchen": {
+      "title": "Kitchen Deep Clean",
+      "desc": "Remove grease, stains, and buildup thoroughly."
+    },
+    "bathroom": {
+      "title": "Bathroom Deep Clean",
+      "desc": "Eliminate stains, mold, and bacteria."
+    }
+  },
+
+  "process_title": "Our Deep Cleaning Process",
+  "process_desc": "We follow a structured, detailed cleaning process to ensure every corner is thoroughly cleaned and refreshed.",
+
+  "benefits_title": "Why Choose Big Cleaning",
+  "benefits": {
+    "deep": {
+      "title": "Deep & Thorough",
+      "desc": "Cleans beyond the surface for a complete refresh."
+    },
+    "move": {
+      "title": "Perfect for Moving",
+      "desc": "Ideal for move-in or move-out cleaning."
+    },
+    "time": {
+      "title": "Save Time & Effort",
+      "desc": "Let professionals handle heavy cleaning tasks."
+    }
+  },
+
+  "final_cta_title": "Ready for a Full Deep Clean?",
+  "final_cta_desc": "Book now and give your home a complete refresh."
+},
+
+"big_clean_faq": {
+  "title": "Big Cleaning FAQ",
+  "items": [
+    {
+      "q": "What is included in big cleaning?",
+      "a": "Big cleaning covers a deep clean of your entire home, including hidden areas, kitchens, bathrooms, and hard-to-reach spots."
+    },
+    {
+      "q": "How is this different from regular cleaning?",
+      "a": "Regular cleaning focuses on surface-level tasks, while big cleaning goes deeper to remove built-up dirt, stains, and hidden dust."
+    },
+    {
+      "q": "Is this suitable for move-in or move-out?",
+      "a": "Yes, it's perfect for both move-in and move-out situations to ensure the space is fully cleaned and ready."
+    },
+    {
+      "q": "Do I need to prepare anything before the service?",
+      "a": "We recommend removing personal belongings and small items to allow our team to clean thoroughly and efficiently."
+    },
+    {
+      "q": "How long does big cleaning take?",
+      "a": "It depends on the size and condition of the space, but typically takes several hours to complete properly."
+    },
+    {
+      "q": "Will you move furniture?",
+      "a": "Yes, we clean around and behind movable furniture when possible to reach hidden areas."
+    },
+    {
+      "q": "Do you remove tough stains and grease?",
+      "a": "Yes, our team focuses on removing built-up stains, grease, and dirt as much as possible."
+    },
+    {
+      "q": "Is this a one-time service?",
+      "a": "Yes, big cleaning is usually a one-time deep cleaning service, but you can follow up with regular cleaning afterward."
+    }
+  ]
+},
+"footer": {
+  "brand_tagline": "Thoughtful cleaning services for a cleaner, more comfortable home every day."
+}
+
+}

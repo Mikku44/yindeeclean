@@ -1,0 +1,141 @@
+import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import FAQSection from "~/components/FAQSection";
+
+export default function DisinfectionCleaning() {
+  const { t } = useTranslation();
+
+  const fadeInUp = {
+    initial: { opacity: 0, y: 40 },
+    whileInView: { opacity: 1, y: 0 },
+    viewport: { once: true },
+    transition: { duration: 0.8 }
+  };
+
+  const areas = ["touchpoints", "bathroom", "kitchen", "surfaces"];
+
+  return (
+    <main className="min-h-screen bg-[#FDFCFB]">
+
+      {/* HERO */}
+      <section className="relative min-h-[520px] flex items-center">
+        <div className="absolute inset-0">
+          <img src="/cleaning_bac2.jpg" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
+          <div className="absolute inset-0 bg-(--primary-color)/10 mix-blend-multiply" />
+        </div>
+
+        <div className="container-x mx-auto px-6 w-full relative z-10 text-white max-w-2xl">
+          <motion.div {...fadeInUp}>
+            <span className="text-xs tracking-[0.3em] text-white/70">
+              {t("disinfection.subtitle")}
+            </span>
+
+            <h1 className="text-4xl md:text-6xl mt-4 leading-tight">
+              {t("disinfection.title")}
+            </h1>
+
+            <p className="mt-6 text-white/70 text-sm">
+              {t("disinfection.description")}
+            </p>
+
+            <button className="mt-8 px-6 py-3 bg-(--primary-color)  rounded-full text-sm">
+              {t("disinfection.cta")}
+            </button>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* WHAT WE DISINFECT */}
+      <section className="py-24">
+        <div className="container-x mx-auto px-6">
+
+          <h2 className="text-4xl font-light mb-12">
+            {t("disinfection.areas_title")}
+          </h2>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {areas.map((key, i) => (
+              <div key={i} className="bg-white p-6 rounded-2xl border border-zinc-200">
+                <div className="bg-(--primary-color) w-10 h-10 rounded-full text-white flex items-center justify-center mb-6">
+                  {i + 1}
+                </div>
+                <h3 className="mb-2 font-medium">
+                  {t(`disinfection.areas.${key}.title`)}
+                </h3>
+                <p className="text-sm text-neutral-500">
+                  {t(`disinfection.areas.${key}.desc`)}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* PROCESS */}
+      <section className="py-24 bg-white">
+        <div className="container-x mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+
+          <img src="/cleaning_bac.jpg" className="rounded-3xl" />
+
+          <div>
+            <h2 className="text-4xl font-light">
+              {t("disinfection.process_title")}
+            </h2>
+
+            <p className="mt-6 text-neutral-500">
+              {t("disinfection.process_desc")}
+            </p>
+
+            <button className="flex items-center gap-2 mt-6 text-sm">
+              {t("disinfection.cta")}
+              <ArrowRight size={16} />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* BENEFITS */}
+      <section className="py-24 bg-[#F7F6F4]">
+        <div className="container-x mx-auto px-6">
+
+          <h2 className="text-4xl font-light mb-12">
+            {t("disinfection.benefits_title")}
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {["germs","safe","confidence"].map((key, i) => (
+              <div key={i}>
+                <h3 className="mb-2 font-medium">
+                  {t(`disinfection.benefits.${key}.title`)}
+                </h3>
+                <p className="text-sm text-neutral-500">
+                  {t(`disinfection.benefits.${key}.desc`)}
+                </p>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <FAQSection namespace="disinfection_faq" />
+
+      {/* CTA */}
+      <section className="py-24 bg-(--primary-color) text-white text-center">
+        <h2 className="text-4xl mb-4">
+          {t("disinfection.final_cta_title")}
+        </h2>
+        <p className="text-white/80 mb-6">
+          {t("disinfection.final_cta_desc")}
+        </p>
+        <button className="px-6 py-3 bg-white text-black rounded-full">
+          {t("disinfection.cta")}
+        </button>
+      </section>
+
+    </main>
+  );
+}
