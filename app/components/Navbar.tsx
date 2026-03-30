@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
-import { APP_MENU, CONTACT } from "~/const/app";
+import { APP_MENU } from "~/const/app";
 import { useTranslation } from "react-i18next";
 import { MdCleaningServices, MdMenu, MdClose } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import { NavLink } from "react-router";
 
 export default function Navbar() {
   const { i18n, t } = useTranslation();
@@ -95,10 +96,10 @@ export default function Navbar() {
               ))}
             </ul>
             <button onClick={toggleLanguage} className="font-bold text-neutral-900 px-2">{displayLang}</button>
-            <div className="btn-primary flex items-center gap-2">
+            <NavLink to="/booking" className="btn-primary flex items-center gap-2">
               <MdCleaningServices />
               {t("common.bookNow")}
-            </div>
+            </NavLink>
           </div>
 
           {/* Mobile Toggle Button */}
@@ -207,7 +208,7 @@ export default function Navbar() {
 
               {/* Bottom Section */}
               <div className="space-y-6 pt-10 border-t border-neutral-100">
-                {/* ... (Your existing contact and button code) */}
+
               </div>
             </motion.div>
           </div>

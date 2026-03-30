@@ -1,8 +1,10 @@
 import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
+import { motion, stagger } from "framer-motion";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { NavLink } from "react-router";
 import { serviceImages, serviceKeys, steps, whyIcons } from "~/const/app";
+import { ARTICLES } from "~/const/posts";
+import ArticlesCarousel from "~/components/BlogScroll";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -124,18 +126,18 @@ export default function Home() {
 
             {/* Right: Grid of Points */}
             <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
-              {[1, 2, 3, 4].map((i,index) => (
+              {[1, 2, 3, 4].map((i, index) => (
                 <motion.div
                   key={i}
                   {...fadeInUp}
                   transition={{ delay: 0.1 * i }}
                   className="group space-y-4 rounded-xl bg-white shadow-xl p-6"
                 >
-                  
+
                   <div className="">
                     <img
-                    className="size-12 hue-rotate-[345deg]"
-                    src={whyIcons[index]}/>
+                      className="size-12 hue-rotate-[345deg]"
+                      src={whyIcons[index]} />
                   </div>
                   <h4 className="text-xl font-medium text-neutral-900 pt-2">
                     {t(`why_us.points.point${i}_title`)}
@@ -257,63 +259,7 @@ export default function Home() {
       </section>
       {/* blog */}
       {/* Blog/Journal Section */}
-      <section className="py-24 bg-[#FDFCFB]">
-        <div className="container-x mx-auto px-6">
-
-          {/* Header */}
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
-            <div className="max-w-xl">
-              <motion.span {...fadeInUp} className="inline-block text-xs uppercase tracking-[0.3em] text-gray-500 mb-4">
-                {t("blog.subtitle") || "Journal"}
-              </motion.span>
-              <h2 className="text-4xl md:text-5xl font-light text-neutral-900 tracking-tight">
-                {t("blog.title") || "Insights & Care"}
-              </h2>
-            </div>
-            <p className="max-w-xs text-sm text-neutral-500 font-light leading-relaxed">
-              {t("blog.description")}
-            </p>
-          </div>
-
-          {/* Draggable Carousel */}
-          <div className="relative overflow-visible cursor-grab active:cursor-grabbing">
-            <motion.div
-              drag="x"
-              dragConstraints={{ right: 0, left: -800 }} // Adjust based on your content width
-              className="flex gap-8 w-max"
-            >
-              {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="w-[300px] md:w-[400px] shrink-0 group">
-                  {/* Image Wrap */}
-                  <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100 mb-6 relative">
-                    <img
-                      src={`/clean${i + 1}.jpg`} // Replace with your actual assets
-                      className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
-                      alt=""
-                    />
-                    <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors" />
-                  </div>
-
-                  {/* Post Metadata */}
-                  <div className="space-y-3">
-                    <span className="text-[10px] uppercase tracking-widest text-neutral-400">
-                      {t(`blog.posts.post${i}_date`)}
-                    </span>
-                    <h3 className="text-xl font-light text-neutral-800 leading-snug group-hover:text-neutral-900 transition-colors">
-                      {t(`blog.posts.post${i}_title`)}
-                    </h3>
-
-                    <button className="flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-500 mt-4 group-hover:text-neutral-900 transition-all">
-                      <span>{t("blog.read_more") || "Read Story"}</span>
-                      <FaArrowRightLong className="text-[10px] transition-transform group-hover:translate-x-1" />
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </motion.div>
-          </div>
-        </div>
-      </section>
+      <ArticlesCarousel />
     </main>
   );
 }

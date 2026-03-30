@@ -107,6 +107,20 @@
       "Upholstery cleaning": "Specialized care for sofas, mattresses, and carpets to remove deep-seated dust and restore fabric texture."
     }
 },
+"services": {
+  "standard": {
+    "title": "Standard Clean",
+    "short_desc": "Perfect for keeping things fresh and tidy."
+  },
+  "deep": {
+    "title": "Deep Clean",
+    "short_desc": "A heavy-duty session for homes that need extra love."
+  },
+  "move_in": {
+    "title": "Move-in / Out",
+    "short_desc": "The ultimate scrub for empty spaces and new beginnings."
+  }
+},
  "contact": {
     "hero_title": "Let's Get in Touch",
     "hero_subtitle": "We're here to help you refresh your space.",
@@ -466,6 +480,148 @@
 },
 "footer": {
   "brand_tagline": "Thoughtful cleaning services for a cleaner, more comfortable home every day."
-}
+},
+"articles": {
+    "subtitle": "Cleaning Knowledge",
+    "title_line_1": "Tips &",
+    "title_line_2": "Guides",
+    "description": "Expert advice, step-by-step guides, and professional secrets to keep every corner of your home spotless.",
+    "featured_label": "Featured Article",
+    "min_read": "min read",
+    "read_more": "Read Article",
+    "grid_label": "All Articles",
+    "grid_title": "Browse by Topic",
+    "empty": "No articles found in this category yet.",
+    "cta_label": "Stay Updated",
+    "cta_title": "Get Cleaning Tips Delivered",
+    "cta_desc": "Join thousands of homeowners who receive our weekly guides, seasonal checklists, and pro-cleaner secrets straight to their inbox.",
+    "cta_placeholder": "Your email address",
+    "cta_btn": "Subscribe",
+    "cta_trust": "No spam. Unsubscribe anytime.",
+    "category": {
+      "all": "All",
+      "general": "General",
+      "kitchen": "Kitchen",
+      "bathroom": "Bathroom",
+      "tips": "Tips"
+    },
+    "deep-clean-kitchen-guide": {
+      "title": "The Complete Guide to Deep Cleaning Your Kitchen",
+      "excerpt": "From degreasing the stovetop to sanitising inside the fridge — a professional cleaner's room-by-room walkthrough that leaves nothing behind."
+    },
+    "bathroom-mold-prevention": {
+      "title": "How to Prevent Bathroom Mold for Good",
+      "excerpt": "Stop mold before it starts with these essential ventilation tips and daily maintenance habits."
+    },
+    "eco-friendly-cleaning-products": {
+      "title": "The Best Eco-Friendly Cleaning Products of 2026",
+      "excerpt": "Clean your home without harsh chemicals. We review the top sustainable brands that actually work."
+    },
+    "weekly-cleaning-schedule": {
+      "title": "The Ultimate Weekly Cleaning Schedule",
+      "excerpt": "A stress-free routine designed for busy families to keep the house tidy in just 20 minutes a day."
+    },
+    "carpet-stain-removal": {
+      "title": "Professional Carpet Stain Removal Secrets",
+      "excerpt": "Spilled red wine or coffee? Don't panic. Here is how to lift tough stains from any carpet fiber."
+    },
+    "spring-cleaning-checklist": {
+      "title": "Essential Spring Cleaning Checklist",
+      "excerpt": "The only list you need to refresh your home. Covering the spots most people forget to clean."
+    }
+  },
+  "about": {
+    "hero_subtitle": "The Yindee Story",
+    "hero_title_1": "Forget the chores.",
+    "hero_title_2": "Just come home and rest.",
+    "mission_title": "A clean space is the start of a good day.",
+    "mission_p1": "We started Yindee Clean in 2026 because life is busy enough already. Your home should be the place where you actually get to recharge, not another item on your to-do list.",
+    "mission_p2": "The name 'Yindee' isn't just a brand—it's how we feel. We’re genuinely happy to help you come home to a smile, treating your space with the same care we’d give our own.",
+    "stat_label": "Homes we've cared for",
+    "values_label": "Why Yindee Clean?",
+    "values_title": "Standards we live by",
+    "cta_title": "Let us handle the cleaning so you can have your weekend back.",
+    "cta_btn": "Check Availability",
+    "values": {
+      "trust_title": "Total Peace of Mind",
+      "trust_desc": "We don't just hire anyone. Every team member is strictly vetted, background-checked, and trained so you can feel completely comfortable letting us handle your private space.",
+      "eco_title": "Safe for the Whole Family",
+      "eco_desc": "Clean shouldn't mean toxic. We use residue-free products that are tough on grime but gentle enough for your kids and pets to crawl around on.",
+      "quality_title": "We Don't Miss a Spot",
+      "quality_desc": "We skip the superficial wipe-down. Our 50-point checklist ensures we catch the dust in the corners you didn't even know were there, making your room feel new again.",
+      "hospitality_title": "Service with a Smile",
+      "hospitality_desc": "Service is what we do best. Our team approaches every home with the 'Yindee' spirit—polite, attentive, and genuinely happy to make your life easier."
+    }
+},
+"standard": {
+    "hero_title": "We don't just clean. We restore.",
+    "hero_desc": "Coming home should feel like checking into a luxury hotel. Our 50-point checklist is how we make that happen, ensuring no dust bunny or water spot is left behind.",
+    "zones": {
+        "kitchen": {
+            "title": "The Kitchen",
+            "1": "Degreasing stovetops & range hoods",
+            "2": "Sanitizing all countertops & surfaces",
+            "3": "Cleaning appliance exteriors (and the microwave inside)",
+            "4": "Deep scrubbing the sink & polishing the tap",
+            "5": "Emptying bins & wiping down the trash area"
+        },
+        "bathroom": {
+            "title": "The Bathrooms",
+            "1": "Disinfecting toilets, inside and out",
+            "2": "Removing hard water stains from glass & mirrors",
+            "3": "Cleaning grout & tile surfaces",
+            "4": "Scrubbing tubs, showers, and basin areas",
+            "5": "Refolding towels and organizing the vanity"
+        },
+        "living": {
+            "title": "Living & Bedrooms",
+            "1": "Dusting electronics, frames, and shelves",
+            "2": "Vacuuming floors, rugs, and under cushions",
+            "3": "Mops for hardwood, tile, or stone floors",
+            "4": "Cleaning baseboards and window sills",
+            "5": "Making beds (if fresh linens are provided)"
+        }
+    },
+    "pillars": {
+    "eco": {
+      "title": "Eco-Friendly Gear",
+      "desc": "No harsh chemical fumes. We use plant-based products that are safe for your family and breathe-easy fresh."
+    },
+    "protocol": {
+      "title": "The 50-Point Protocol",
+      "desc": "We don't wing it. Our team follows a strict roadmap to make sure no corner or surface is ever overlooked."
+    },
+    "inspect": {
+      "title": "Double Inspected",
+      "desc": "We don't just finish and leave. Every session ends with a final cross-check to make sure it meets our bar."
+    }
+  },
+  "guarantee": {
+    "title": "The Yindee Happiness Guarantee",
+    "desc": "If something isn't quite right, just let us know within 24 hours. We'll come back and fix it—completely free of charge. No hoops to jump through, no questions asked.",
+    "cta": "Book with Confidence"
+  },
+  "checklist_header": "Exactly what we do during a Standard Clean",
+  "checklist_subheader": "We follow every point protocol to make sure every room feels fresh, sanitized, and ready for you to enjoy."
+
+},
+"booking": {
+    "subtitle": "Book Your Session",
+    "title": "Let's find the perfect time.",
+    "step1_label": "What kind of cleaning do you need?",
+    "step2_label": "Tell us about your space.",
+    "step3_label": "When should we stop by?",
+    "date_label": "Preferred Date",
+    "note_label": "Any special requests? (Optional)",
+    "note_placeholder": "e.g. Please focus on the balcony or I have a cat...",
+    "back": "Back",
+    "go_back": "Go Back",
+    "confirm": "Confirm Booking",
+    "trust": {
+      "secure": "Secure Data",
+      "instant": "Instant Confirmation"
+    },
+    "next": "Next Step"
+  }
 
 }

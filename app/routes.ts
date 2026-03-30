@@ -11,7 +11,9 @@ export default [
         route("yindee-clean-standard", "routes/yindee-clean-standard.tsx"),
         route("about", "routes/about.tsx"),
         route("contact", "routes/contact.tsx"),
-        route("article", "routes/article.tsx"),
+        route("booking", "routes/booking.tsx"),
+        route("articles", "routes/article.tsx"),
+        route("articles/:slug", "routes/article-detail.tsx"),
     ]
     )
 ] satisfies RouteConfig;

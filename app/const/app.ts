@@ -26,7 +26,7 @@ export const APP_MENU = [
         label: "common.menu.standard"
     },
     {
-        href: "/article",
+        href: "/articles",
         label: "common.menu.article"
     },
     {
