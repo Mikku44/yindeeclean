@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { motion, stagger } from "framer-motion";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { NavLink } from "react-router";
-import { serviceImages, serviceKeys, steps, whyIcons } from "~/const/app";
+import { APP_MENU, serviceImages, serviceKeys, steps, whyIcons } from "~/const/app";
 import { ARTICLES } from "~/const/posts";
 import ArticlesCarousel from "~/components/BlogScroll";
 
@@ -23,6 +23,7 @@ export default function Home() {
         {/* Aesthetic Background Layer */}
         <div className="absolute inset-0 z-0">
           <img
+          loading="lazy"
             src="/living.jpg"
             className="w-full h-full object-cover opacity-40 mix-blend-multiply"
             alt=""
@@ -57,14 +58,14 @@ export default function Home() {
 
             <div className="flex gap-2">
               <motion.div {...fadeInUp} transition={{ delay: 0.4 }}>
-                <button className="group relative px-8 py-4 bg-(--primary-color) rounded-full text-white overflow-hidden transition-all duration-300 hover:pr-12">
+                <NavLink to="/booking" className="group relative px-8 py-4 bg-(--primary-color) rounded-full text-white overflow-hidden transition-all duration-300 hover:pr-12">
                   <span className="relative z-10 uppercase tracking-widest text-sm font-medium">
                     {t("home.cta") || "Book Consultation"}
                   </span>
                   <span className="absolute right-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
                     →
                   </span>
-                </button>
+                </NavLink>
               </motion.div>
               <motion.div {...fadeInUp} transition={{ delay: 0.4 }}>
                 <NavLink to="/services" className="group relative px-8 py-4 text-zinc-800 flex items-center transition-all duration-300 pr-10 hover:pr-12">
@@ -90,6 +91,7 @@ export default function Home() {
 
             <div className="relative  w-[640px] z-10 overflow-hidden bottom-[-60px] md:left-[-180px]">
               <img
+              loading="lazy"
                 src="maid.webp"
                 className="w-full h-auto object-cover "
                 alt="Professional maid service"
@@ -136,6 +138,7 @@ export default function Home() {
 
                   <div className="">
                     <img
+                    loading="lazy"
                       className="size-12 hue-rotate-[345deg]"
                       src={whyIcons[index]} />
                   </div>
@@ -220,12 +223,14 @@ export default function Home() {
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {serviceKeys.map((key, index) => (
-              <div
+              <NavLink
+                to={APP_MENU[0]?.subMenu?.[index]?.href || "/services"}
                 key={key}
                 className="group relative h-[500px] w-full overflow-hidden rounded-2xl bg-zinc-100"
               >
                 {/* Image with subtle zoom */}
                 <img
+                lang="lazy"
                   className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 grayscale-[20%] group-hover:grayscale-0"
                   src={serviceImages[index]} // Replace with specific service images
                   alt={t(`service.categories.${key}`)}
@@ -252,7 +257,7 @@ export default function Home() {
                     <div className="mt-4 w-0 group-hover:w-12 h-[1px] bg-(--primary-color) transition-all duration-500"></div>
                   </div>
                 </div>
-              </div>
+              </NavLink>
             ))}
           </div>
         </div>

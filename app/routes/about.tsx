@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import {  FaAward, FaLeaf, FaShieldHeart } from "react-icons/fa6";
+import { NavLink } from "react-router";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 40 },
@@ -148,9 +149,9 @@ export default function About() {
             <h2 className="text-4xl md:text-6xl font-light mb-8 max-w-2xl mx-auto">
               {t("about.cta_title", "Experience the joy of a spotless home.")}
             </h2>
-            <button className="px-10 py-4 bg-white text-(--primary-color) rounded-full font-medium text-sm hover:bg-neutral-100 transition-colors shadow-xl">
+            <NavLink to="/booking" className="px-10 py-4 bg-white text-(--primary-color) rounded-full font-medium text-sm hover:bg-neutral-100 transition-colors shadow-xl">
               {t("about.cta_btn", "Book Your Cleaning")}
-            </button>
+            </NavLink>
           </motion.div>
         </div>
       </section>

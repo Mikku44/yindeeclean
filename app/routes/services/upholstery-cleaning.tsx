@@ -74,12 +74,12 @@ export default function UpholsteryCleaning() {
             </div>
 
             {/* CTA */}
-            <div className="flex gap-3 pt-2">
+            <div className="flex gap-3 pt-2 items-center">
 
               <motion.div {...fadeInUp} transition={{ delay: 0.3 }}>
-                <button className="px-6 py-2.5 bg-(--primary-color) rounded-full text-white text-sm font-medium shadow hover:shadow-md transition">
+                <NavLink to={"/booking"} className="px-6 py-2.5  bg-(--primary-color) rounded-full text-white text-sm font-medium shadow hover:shadow-md transition">
                   {t("upholstery.cta_primary")}
-                </button>
+                </NavLink>
               </motion.div>
 
               <motion.div {...fadeInUp} transition={{ delay: 0.35 }}>
@@ -218,12 +218,12 @@ export default function UpholsteryCleaning() {
               ))}
             </div>
 
-            <button className="flex items-center gap-4 text-neutral-900 group font-medium uppercase tracking-[0.2em] text-xs pt-8">
+            <NavLink to="/contact" className="flex items-center gap-4 text-neutral-900 group font-medium uppercase tracking-[0.2em] text-xs pt-8">
               {t("upholstery.cta")}
               <div className="w-10 h-10 rounded-full border border-neutral-200 flex items-center justify-center group-hover:bg-neutral-900 group-hover:text-white transition-all">
                 <ArrowRight size={16} />
               </div>
-            </button>
+            </NavLink >
           </div>
         </div>
       </section>

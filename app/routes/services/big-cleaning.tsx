@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import FAQSection from "~/components/FAQSection";
+import { NavLink } from "react-router";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function BigCleaning() {
   const { t } = useTranslation();
@@ -40,9 +42,19 @@ export default function BigCleaning() {
               {t("big_clean.description")}
             </p>
 
-            <button className="mt-8 px-6 py-3 bg-(--primary-color) rounded-full text-sm">
-              {t("big_clean.cta")}
-            </button>
+            <div className="flex gap-3 pt-2">
+              <NavLink to="/booking" className="px-6 py-2.5 bg-(--primary-color) rounded-full text-white text-sm">
+                {t("big_clean.cta")}
+              </NavLink>
+
+              <NavLink
+                to="/services"
+                className="px-5 py-2.5 rounded-full border border-white/30 text-white/80 text-sm flex items-center gap-2"
+              >
+                {t("home_clean.cta_secondary")}
+                <FaArrowRightLong className="text-xs" />
+              </NavLink>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -58,7 +70,7 @@ export default function BigCleaning() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {areas.map((key, i) => (
               <div key={i} className="bg-white p-6 rounded-2xl border border-zinc-200">
-               <div className="bg-(--primary-color) w-10 h-10 rounded-full text-white flex items-center justify-center mb-6">
+                <div className="bg-(--primary-color) w-10 h-10 rounded-full text-white flex items-center justify-center mb-6">
                   {i + 1}
                 </div>
                 <h3 className="mb-2 font-medium">
@@ -88,10 +100,11 @@ export default function BigCleaning() {
               {t("big_clean.process_desc")}
             </p>
 
-            <button className="flex items-center gap-2 mt-6 text-sm">
+            <NavLink to="/booking" className="flex items-center gap-2 mt-6 text-sm">
               {t("big_clean.cta")}
               <ArrowRight size={16} />
-            </button>
+            </NavLink>
+
           </div>
         </div>
       </section>
@@ -105,7 +118,7 @@ export default function BigCleaning() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {["deep","move","time"].map((key, i) => (
+            {["deep", "move", "time"].map((key, i) => (
               <div key={i}>
                 <h3 className="mb-2 font-medium">
                   {t(`big_clean.benefits.${key}.title`)}
@@ -131,9 +144,9 @@ export default function BigCleaning() {
         <p className="text-white/80 mb-6">
           {t("big_clean.final_cta_desc")}
         </p>
-        <button className="px-6 py-3 bg-white text-black rounded-full">
+        <NavLink to="/booking" className="px-6 py-3 bg-white text-black rounded-full">
           {t("big_clean.cta")}
-        </button>
+        </NavLink>
       </section>
 
     </main>

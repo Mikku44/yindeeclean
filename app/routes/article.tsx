@@ -272,14 +272,15 @@ export default function Articles() {
             <input
               type="email"
               placeholder={t("articles.cta_placeholder", "Your email address")}
-              className="flex-1 px-5 py-2.5 rounded-full text-sm text-black outline-none placeholder-neutral-400"
+              className="flex-1 px-5 py-2.5 rounded-full text-sm text-white outline-none 
+              border border-zinc-100 placeholder-neutral-100"
             />
             <button className="px-6 py-2.5 bg-white text-(--primary-color) rounded-full text-sm font-medium shrink-0 hover:bg-white/90 transition">
               {t("articles.cta_btn", "Subscribe")}
             </button>
           </div>
 
-          <p className="text-xs text-white/40 mt-5">
+          <p className="text-xs text-white/80 mt-5">
             {t("articles.cta_trust", "No spam. Unsubscribe anytime.")}
           </p>
         </div>

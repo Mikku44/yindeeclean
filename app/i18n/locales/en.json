@@ -14,9 +14,24 @@
       "standard": "Yindee Clean Standard",
       "article": "Article",
       "about": "About",
-      "contact": "Contact"
+      "contact": "Contact",
+      "booking": "Booking",
+      "deep": "Deep Cleaning"
+    },
+    "actions": {
+      "viewDetail": "View Details",
+      "bookNow": "Book Now",
+      "confirm": "Confirm",
+      "back": "Back",
+      "next": "Next Step"
     },
     "exploreService": "Explore Services"
+  },
+  "menu": {
+    "homeCleaning": "General Home Cleaning",
+    "bigCleaning": "Big Cleaning / Deep Cleaning",
+    "disinfection": "Disinfection Service",
+    "upholstery": "Upholstery & Carpet Cleaning"
   },
   "home": {
     "heroAlt": "hero image",
@@ -29,8 +44,48 @@
     "cta2": "View Services"
   },
   "services": {
-    "title": "Our Professional Cleaning Services",
-    "description": "We offer a comprehensive range of cleaning solutions to meet your needs, from daily home cleaning to specialized disinfection and upholstery care."
+     "standard": {
+    "title": "Standard Clean",
+    "short_desc": "Perfect for keeping things fresh and tidy."
+    
+  },
+  "cta_section": {
+    "title": "Need a professional clean?",
+    "description": "Get a free estimate and book your slot online in just a few steps."
+  },
+  "deep": {
+    "title": "Deep Clean",
+    "short_desc": "A heavy-duty session for homes that need extra love."
+  },
+  "move_in": {
+    "title": "Move-in / Out",
+    "short_desc": "The ultimate scrub for empty spaces and new beginnings."
+  },
+  "mainTitle": "Expert Care ",
+  "mainTitle2": "for Your Home ",
+    "subTitle": "Tailored to your lifestyle",
+    "description": "Professional care for your home and furniture using industry-leading equipment and eco-friendly solutions.",
+    "cta": "Explore Services",
+    "desc": {
+      "homeCleaning": "Routine maintenance to keep your living space fresh and organized every day.",
+      "bigCleaning": "A deep, comprehensive scrub of every corner, including hard-to-reach areas.",
+      "disinfection": "Professional grade sanitization to eliminate bacteria and viruses for your family's safety.",
+      "upholstery": "Deep cleaning for sofas, mattresses, and carpets to remove stains and allergens.",
+      "standard": "Daily maintenance and organization.",
+      "deep": "Comprehensive scrub for every corner."
+    },
+    "features": {
+      "homeCleaning_1": "Surface dusting & floor mopping",
+      "homeCleaning_2": "General tidying & organization",
+      "bigCleaning_1": "Deep kitchen & bathroom scrubbing",
+      "bigCleaning_2": "Window and track cleaning",
+      "disinfection_1": "Hospital-grade disinfectant",
+      "disinfection_2": "Safe for kids and pets",
+      "upholstery_1": "Deep dust mite extraction",
+      "upholstery_2": "Tough stain removal"
+    }
+    
+   
   },
   
   "whyYindee": {
@@ -105,22 +160,29 @@
       "Big cleaning": "A thorough, top-to-bottom reset. Perfect for move-ins, post-renovations, or a seasonal home refresh.",
       "Disinfection cleaning": "Professional sanitization using safe, hospital-grade solutions to keep your environment healthy and protected.",
       "Upholstery cleaning": "Specialized care for sofas, mattresses, and carpets to remove deep-seated dust and restore fabric texture."
+    },
+    "mainTitle": "Premium Services",
+    "subTitle": "Tailored to your lifestyle",
+    "description": "Professional care for your home and furniture using industry-leading equipment and eco-friendly solutions.",
+    "cta": "Explore Services",
+    "desc": {
+      "homeCleaning": "Routine maintenance to keep your living space fresh and organized every day.",
+      "bigCleaning": "A deep, comprehensive scrub of every corner, including hard-to-reach areas.",
+      "disinfection": "Professional grade sanitization to eliminate bacteria and viruses for your family's safety.",
+      "upholstery": "Deep cleaning for sofas, mattresses, and carpets to remove stains and allergens."
+    },
+    "features": {
+      "homeCleaning_1": "Surface dusting & floor mopping",
+      "homeCleaning_2": "General tidying & organization",
+      "bigCleaning_1": "Deep kitchen & bathroom scrubbing",
+      "bigCleaning_2": "Window and track cleaning",
+      "disinfection_1": "Hospital-grade disinfectant",
+      "disinfection_2": "Safe for kids and pets",
+      "upholstery_1": "Deep dust mite extraction",
+      "upholstery_2": "Tough stain removal"
     }
 },
-"services": {
-  "standard": {
-    "title": "Standard Clean",
-    "short_desc": "Perfect for keeping things fresh and tidy."
-  },
-  "deep": {
-    "title": "Deep Clean",
-    "short_desc": "A heavy-duty session for homes that need extra love."
-  },
-  "move_in": {
-    "title": "Move-in / Out",
-    "short_desc": "The ultimate scrub for empty spaces and new beginnings."
-  }
-},
+
  "contact": {
     "hero_title": "Let's Get in Touch",
     "hero_subtitle": "We're here to help you refresh your space.",
@@ -554,7 +616,7 @@
     }
 },
 "standard": {
-    "hero_title": "We don't just clean. We restore.",
+    "hero_title": "More than just clean—a healthier home for everyone you love.",
     "hero_desc": "Coming home should feel like checking into a luxury hotel. Our 50-point checklist is how we make that happen, ensuring no dust bunny or water spot is left behind.",
     "zones": {
         "kitchen": {
@@ -621,6 +683,11 @@
       "secure": "Secure Data",
       "instant": "Instant Confirmation"
     },
+    "name_label": "Full Name",
+    "name_placeholder": "Your name",
+    "contact_label": "Phone or WhatsApp",
+    "contact_placeholder": "+66 8X-XXX-XXXX",
+    
     "next": "Next Step"
   }
 

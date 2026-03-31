@@ -151,13 +151,14 @@ export default function YindeeStandard() {
             {t("standard.guarantee.desc")}
           </p>
 
-          <motion.button
+          <motion.a
+          href="/booking"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-10 py-4 bg-neutral-900 text-white rounded-full text-sm font-medium hover:bg-neutral-800 transition-all shadow-xl"
           >
             {t("standard.guarantee.cta")}
-          </motion.button>
+          </motion.a>
         </motion.div>
       </section>
     </main>

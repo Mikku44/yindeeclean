@@ -37,6 +37,7 @@ export const APP_MENU = [
         href: "/contact",
         label: "common.menu.contact"
     },
+    
 ]
 
 export const serviceKeys = ['Home cleaning', 'Big cleaning', 'Disinfection cleaning', 'Upholstery cleaning'];

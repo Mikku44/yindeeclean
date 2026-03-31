@@ -65,9 +65,9 @@ export default function HomeCleaning() {
 
             {/* CTA */}
             <div className="flex gap-3 pt-2">
-              <button className="px-6 py-2.5 bg-(--primary-color) rounded-full text-white text-sm">
+              <NavLink to="/booking" className="px-6 py-2.5 bg-(--primary-color) rounded-full text-white text-sm">
                 {t("home_clean.cta_primary")}
-              </button>
+              </NavLink>
 
               <NavLink
                 to="/services"
@@ -146,10 +146,10 @@ export default function HomeCleaning() {
               {t("home_clean.process.desc")}
             </p>
 
-            <button className="flex items-center gap-3 mt-8">
+            <NavLink to="/contact" className="flex items-center gap-3 mt-8">
               {t("home_clean.cta")}
               <ArrowRight size={16} />
-            </button>
+            </NavLink>
           </div>
         </div>
       </section>
@@ -233,9 +233,9 @@ export default function HomeCleaning() {
             {t("home_clean.final_cta_desc")}
           </p>
 
-          <button className="px-8 py-3 bg-white text-black rounded-full text-sm">
+          <NavLink to="/booking" className="px-8 py-3 bg-white text-black rounded-full text-sm">
             {t("home_clean.cta_primary")}
-          </button>
+          </NavLink>
 
         </div>
       </section>

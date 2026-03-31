@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import FAQSection from "~/components/FAQSection";
+import { NavLink } from "react-router";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function DisinfectionCleaning() {
   const { t } = useTranslation();
@@ -40,9 +42,19 @@ export default function DisinfectionCleaning() {
               {t("disinfection.description")}
             </p>
 
-            <button className="mt-8 px-6 py-3 bg-(--primary-color)  rounded-full text-sm">
-              {t("disinfection.cta")}
-            </button>
+           <div className="flex gap-3 pt-2">
+              <NavLink to="/booking" className="px-6 py-2.5 bg-(--primary-color) rounded-full text-white text-sm">
+                {t("disinfection.cta")}
+              </NavLink>
+
+              <NavLink
+                to="/services"
+                className="px-5 py-2.5 rounded-full border border-white/30 text-white/80 text-sm flex items-center gap-2"
+              >
+                {t("home_clean.cta_secondary")}
+                <FaArrowRightLong className="text-xs" />
+              </NavLink>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -88,10 +100,12 @@ export default function DisinfectionCleaning() {
               {t("disinfection.process_desc")}
             </p>
 
-            <button className="flex items-center gap-2 mt-6 text-sm">
+            <NavLink to="/contact" className="flex items-center gap-2 mt-6 text-sm">
               {t("disinfection.cta")}
               <ArrowRight size={16} />
-            </button>
+            </NavLink>
+
+            
           </div>
         </div>
       </section>
@@ -131,9 +145,9 @@ export default function DisinfectionCleaning() {
         <p className="text-white/80 mb-6">
           {t("disinfection.final_cta_desc")}
         </p>
-        <button className="px-6 py-3 bg-white text-black rounded-full">
+        <NavLink to="/booking" className="px-6 py-3 bg-white text-black rounded-full">
           {t("disinfection.cta")}
-        </button>
+        </NavLink>
       </section>
 
     </main>
