@@ -3,6 +3,7 @@
 @theme {
   --font-sans: "Inter" ,"IBM Plex Sans Thai", "Noto Sans Thai", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --breakpoint-md: 987px;
 }
 
 .playfair {

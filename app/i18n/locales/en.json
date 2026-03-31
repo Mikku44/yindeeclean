@@ -668,27 +668,78 @@
 
 },
 "booking": {
-    "subtitle": "Book Your Session",
-    "title": "Let's find the perfect time.",
-    "step1_label": "What kind of cleaning do you need?",
-    "step2_label": "Tell us about your space.",
-    "step3_label": "When should we stop by?",
-    "date_label": "Preferred Date",
-    "note_label": "Any special requests? (Optional)",
-    "note_placeholder": "e.g. Please focus on the balcony or I have a cat...",
-    "back": "Back",
-    "go_back": "Go Back",
-    "confirm": "Confirm Booking",
-    "trust": {
-      "secure": "Secure Data",
-      "instant": "Instant Confirmation"
-    },
-    "name_label": "Full Name",
-    "name_placeholder": "Your name",
-    "contact_label": "Phone or WhatsApp",
-    "contact_placeholder": "+66 8X-XXX-XXXX",
-    
-    "next": "Next Step"
-  }
+  "subtitle": "Book Your Session",
+  "title": "Let's find the perfect time.",
+  "step1_label": "What kind of cleaning do you need?",
+  "step2_label": "Tell us about your space.",
+  "step3_label": "When should we stop by?",
+  "date_label": "Preferred Date",
+  "note_label": "Any special requests? (Optional)",
+  "note_placeholder": "e.g. Please focus on the balcony or I have a cat...",
+  "back": "Back",
+  "go_back": "Go Back",
+  "confirm": "Confirm Booking",
+  "trust": {
+    "secure": "Secure Data",
+    "instant": "Instant Confirmation"
+  },
+  "name_label": "Full Name",
+  "name_placeholder": "Your name",
+  "contact_label": "Phone or WhatsApp",
+  "contact_placeholder": "+66 8X-XXX-XXXX",
 
+  "next": "Next Step"
+},
+"cookie": {
+  "title": "We value your privacy",
+  "description": "We use cookies to improve your browsing experience and analyze our traffic. By clicking \"Accept\", you consent to our use of cookies.",
+  "accept": "Accept",
+  "decline": "Decline"
+},
+"privacy": {
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated: March 24, 2026",
+  "intro": "At Yindee Clean, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or use our services.",
+  "sections": [
+    {
+      "title": "Information We Collect",
+      "content": "We may collect personal information such as your name, phone number, and address when you book a service or contact us. We also collect usage data through cookies."
+    },
+    {
+      "title": "How We Use Your Information",
+      "content": "We use your information to provide and improve our services, communicate with you, and process your bookings."
+    },
+    {
+      "title": "Data Security",
+      "content": "We take reasonable measures to protect your information from unauthorized access, loss, or misuse."
+    },
+    {
+      "title": "Your Rights",
+      "content": "You have the right to access, correct, or delete your personal information. Please contact us if you wish to exercise these rights."
+    }
+  ]
+},
+"terms": {
+  "title": "Terms of Service",
+  "lastUpdated": "Last Updated: March 24, 2026",
+  "intro": "By using the Yindee Clean website and services, you agree to comply with and be bound by the following Terms of Service.",
+  "sections": [
+    {
+      "title": "Service Bookings",
+      "content": "All bookings are subject to availability. We reserve the right to cancel or reschedule services as needed."
+    },
+    {
+      "title": "Payment",
+      "content": "Payments must be made in accordance with the pricing and terms specified at the time of booking."
+    },
+    {
+      "title": "Cancellation Policy",
+      "content": "Please notify us at least 24 hours in advance if you need to cancel or reschedule your service."
+    },
+    {
+      "title": "Liability",
+      "content": "Yindee Clean is not liable for any indirect or consequential loss or damage arising from the use of our services."
+    }
+  ]
+}
 }

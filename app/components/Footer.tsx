@@ -89,8 +89,8 @@ export default function Footer() {
             © {currentYear} Yindee Clean. All Rights Reserved.
           </p>
           <div className="flex gap-8 text-[11px] text-neutral-400 uppercase tracking-widest">
-            <a href="#" className="hover:text-neutral-900 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-neutral-900 transition-colors">Terms of Service</a>
+            <a href="/privacy-policy" className="hover:text-neutral-900 transition-colors">Privacy Policy</a>
+            <a href="/terms-of-service" className="hover:text-neutral-900 transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

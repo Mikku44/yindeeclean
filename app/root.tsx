@@ -8,6 +8,7 @@ import {
 } from "react-router";
 import { useTranslation } from "react-i18next";
 import "./i18n";
+import CookieConsent from "./components/CookieConsent";
 
 import type { Route } from "./+types/root";
 import "./app.css";
@@ -57,6 +58,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {children}
         <ScrollRestoration />
         <Scripts />
+        <CookieConsent />
       </body>
     </html>
   );

@@ -48,6 +48,7 @@ const ArticleCard = ({ article, index, t }: any) => {
         {/* Thumbnail */}
         <div className="relative overflow-hidden h-64 pointer-events-none">
           <img
+          loading="lazy"
             src={article.image}
             alt={article.slug}
             draggable="false"

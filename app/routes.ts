@@ -14,6 +14,8 @@ export default [
         route("booking", "routes/booking.tsx"),
         route("articles", "routes/article.tsx"),
         route("articles/:slug", "routes/article-detail.tsx"),
+        route("privacy-policy", "routes/privacy-policy.tsx"),
+        route("terms-of-service", "routes/terms-of-service.tsx"),
     ]
     )
 ] satisfies RouteConfig;
